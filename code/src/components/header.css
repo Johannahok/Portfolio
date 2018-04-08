@@ -1,0 +1,46 @@
+.header{
+background:#ff8f66;
+display: flex;
+}
+
+
+.profil-pic {
+margin-left: 480px;
+}
+
+.profil-pic img {
+border-radius: 50%;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.info {
+margin-left: 100px;
+margin-top: 58px;
+}
+
+
+.info ul {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+
+}
+
+ul {
+  list-style-type: circle;
+  color:  #f2f2f2;
+}
+
+h4 {
+  font-family: "Arial", sans-serif;
+  font-size: 50px;
+  margin-left: 20px;
+  color:   #f2f2f2;
+}
+
+/* p {
+  font-family: "Montserrat", sans-serif;
+margin-top: 50px;
+  font-size: 10px;
+  margin-left: 300px;
+} */
