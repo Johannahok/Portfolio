@@ -1,25 +1,32 @@
 import React from "react"
 import Header from "./header.css"
+import {BrowserRouter, Route, Link} from "react-router-dom"
 
 class App extends React.Component {
   render() {
     return (<div className="header">
 
-      <div className="info">
-<h4>Johannas Portfolio</h4>
+      <button>
+        <a>
+          <Link to="/">Home</Link>
+        </a>
+      </button>
 
-        <ul>
-         <li>Projects</li>
-          <li>About</li>
+      <button>
+        <a>
+          <Link to="/about">About</Link>
+        </a>
+      </button>
 
-        </ul>
+      <button>
+        <a>
+          <Link to="/projects">Projects</Link>
+        </a>
+      </button>
 
-      </div>
 
-      <div className="profil-pic"><img src={require(`../images/Johanna.jpg`)}/>
-      </div>
-    </div>)
-  }
+    </div>
+ )}
 }
 
-export default App;
+export default App

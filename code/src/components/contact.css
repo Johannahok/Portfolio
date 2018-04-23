@@ -1,0 +1,28 @@
+.contact-about {
+  text-align: center;
+  position: relative;
+  }
+
+  footer{
+  position: absolute;
+  bottom: 8px;
+  right: 530px;
+  display: flex;
+
+  }
+
+.link {
+  color: #f2f2f2;
+}
+
+.mail-about {
+font-family: "PT Sans Narrow", sans-serif;
+}
+
+.linkedin-about {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  margin-top: 2px;
+
+}

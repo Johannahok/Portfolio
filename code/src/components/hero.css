@@ -1,0 +1,13 @@
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text h1{
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #f2f2f2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
