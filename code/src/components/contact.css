@@ -11,12 +11,11 @@
 
   }
 
-.link {
+.contact-link {
   color: #f2f2f2;
-}
-
-.mail-about {
-font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  font-family: "PT Sans Narrow", sans-serif;
+ text-decoration: none;
 }
 
 .linkedin-about {

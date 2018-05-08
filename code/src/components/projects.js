@@ -10,9 +10,9 @@ return (
 
 <div className="main-box">
 
-        {/* <div className="h4-header">
+         {/* <div className="h4-header">
           <h4>These are my projects</h4>
-        </div>  */}
+        </div>   */}
 
   <div className="box">
   <h5>Classphoto of everyone at the bootcamp, build with flexbox </h5>
@@ -34,12 +34,14 @@ return (
     <h5>I designed a weather app by fetching a API</h5>
     <a href="https://johannahok.github.io/assignment-weather/" target="_blank">
      <img src={require(`../images/api.png`)}/> </a>
+</div>
 
-
+  <div className="box">
+   <h1>hej</h1>
   </div>
 
   <div className="box">
-
+   <h1>hej</h1>
   </div>
 
 </div>
