@@ -16,18 +16,18 @@ height: 100%;
 .welcome-text h2 {
 font-family: "PT Sans Narrow", sans-serif;
 color: #f2f2f2;
+border-bottom: 1px solid #f2f2f2;
 }
 
-.info{
+.info {
   padding: 40px;
 }
 
-.info h4{
+.info h4 {
   font-family: "PT Sans Narrow", sans-serif;
   color: #f2f2f2;
   font-size: 30px;
   text-align: center;
-
 }
 
 .profil-pic {
@@ -38,6 +38,6 @@ color: #f2f2f2;
 
 .profil-pic img {
 border-radius: 50%;
-margin-top: 45px;
+margin-top: 12px;
 margin-bottom: 20px;
 }

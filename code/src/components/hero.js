@@ -10,7 +10,13 @@ return(
   <div className="hero"><img src={require(`../images/plant2.jpg`)}/>
     <div className="hero-text">
       <h1>I want to work with you!</h1>
-    </div>
+      </div>
+     <button className="hero-button">
+     <a className="hero-link">
+    <Link to="/projects">View my work</Link>
+  </a>
+</button>
+
   </div>
 
 )}
