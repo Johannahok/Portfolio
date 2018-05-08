@@ -6,20 +6,20 @@ class App extends React.Component {
   render() {
     return (<div className="header">
 
-      <button>
-        <a>
+      <button className="header-button">
+        <a className="header-link">
           <Link to="/">Home</Link>
         </a>
       </button>
 
-      <button>
-        <a>
+      <button className="header-button">
+        <a className="header-link">
           <Link to="/about">About</Link>
         </a>
       </button>
 
-      <button>
-        <a>
+      <button className="header-button">
+        <a className="header-link">
           <Link to="/projects">Projects</Link>
         </a>
       </button>

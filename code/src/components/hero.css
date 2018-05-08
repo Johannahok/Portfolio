@@ -1,6 +1,12 @@
+.hero-container{
+  height: auto;
+  width: 100%;
+}
+
+
 .hero img {
   width: 100%;
-  height: auto;
+  height: 60%;
 }
 
 .hero-text h1{
