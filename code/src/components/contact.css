@@ -1,15 +1,12 @@
+
 .contact-about {
-  text-align: center;
-  position: relative;
-  }
+text-align: center;
+}
 
-  footer{
-  position: absolute;
+   footer {
   bottom: 8px;
-  right: 530px;
-  display: flex;
-
-  }
+  left: 450px;
+}
 
 .contact-link {
   color: #f2f2f2;
@@ -21,7 +18,6 @@
 .linkedin-about {
   width: 20px;
   height: 20px;
-  margin-left: 20px;
+   margin-left: 20px;
   margin-top: 2px;
-
 }

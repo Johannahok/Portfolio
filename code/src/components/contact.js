@@ -5,6 +5,7 @@ import Contact from "./contact.css"
 class App extends React.Component {
 render() {
 return(
+
   <div className="contact-about">
     <footer>
        <a className="contact-link" href="mailto:johannahokstrand@gmail.com?body=Hi">email me here!</a>
