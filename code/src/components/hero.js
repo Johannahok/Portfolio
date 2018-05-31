@@ -8,7 +8,7 @@ render() {
 
 return(
   <div className="hero-container">
-  <div className="hero"><img src={require(`../images/plant2.jpg`)}/> 
+    <div className="hero"><img src={require(`../images/plant2.jpg`)}/>
     <div className="hero-text">
       <h1>I want to work with you!</h1>
       </div>

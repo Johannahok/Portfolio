@@ -6,12 +6,12 @@ import Hero from "./hero"
 import Contact from "./contact"
 import "./app.css"
 
-import { BrowserRouter, Route, Link } from "react-router-dom"
+import { HashRouter, Route, Link } from "react-router-dom"
 
 class App extends React.Component {
   render() {
     return(
- <BrowserRouter>
+ <HashRouter>
     <div className="main-container">
 
 
@@ -22,7 +22,7 @@ class App extends React.Component {
 <Route path="/projects" component={Projects}/>
 
 </div>
- </BrowserRouter>
+</HashRouter>
 
   )}
 }
